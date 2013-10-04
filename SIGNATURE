@@ -1,0 +1,53 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 55ac697642a18dd7d974736a3d06fd531aa82382 .travis.yml
+SHA1 755d38db184fc48f5f64760868bef5359c715311 Changes
+SHA1 38080e36935c3dd4633e839e7905f0e4d47b0417 INSTALL
+SHA1 425b43f09d540543817bef8dbecb4c1a2da36085 LICENSE
+SHA1 ade762ab128860018a403996d086bdaeddd79ebf MANIFEST
+SHA1 3fe96091a60579c8cb83eda15d0885d64a805508 META.json
+SHA1 92c69231b402341dad563fd21edaef3e4e47e395 META.yml
+SHA1 554cfe321129562be04486563192d8151605f289 Makefile.PL
+SHA1 90563e90fa21b3656db233e0d6cdd25101e88cda README
+SHA1 00d66a906ed60584af5407b4218f757b4affd334 cpanfile
+SHA1 d57b8a932051b03aaf8a02622e43d126c01dacbc dist.ini
+SHA1 192971aed746ed744ca2089bd0ce89d1d5871e67 lib/autobox/Junctions.pm
+SHA1 f6d7a8d06a7cc8f42c3f180a7c84beb9c0cf4332 t/00-check-deps.t
+SHA1 39595ff94476d00d43169f43121b6d37d3297eb1 t/00-compile.t
+SHA1 bfa1c1a1ab2b0747ca344870027eaeec8aba90e5 t/000-report-versions-tiny.t
+SHA1 519b642c49f0872f48a401a50ea5d4ef93800587 t/author-pod-spell.t
+SHA1 59db4d8889e201cafb3bca9c119070212d738798 t/basic.t
+SHA1 9c3627ff37f4fd5bddc34bf46cf3359eaf76a060 t/release-consistent-version.t
+SHA1 a032c41ef6887fab1b900669c2d304fab46680e2 t/release-eol.t
+SHA1 24ab2dbaa556a4493b14424fd1530cf081a7e870 t/release-has-version.t
+SHA1 496fb5ebe700dcca5a86d67fc077bc749f9ab814 t/release-minimum-version.t
+SHA1 9a74ff5e6e04f0834e31beb147b3aedafb1cf79d t/release-no-smart-comments.t
+SHA1 34daf3b6375de444274ba10326ff0194f22486ea t/release-no-tabs.t
+SHA1 e33c6e55f7fa61b44dc53d1fe7da0d0b3a2ac602 t/release-pod-coverage.t
+SHA1 a6923ad61b1e383e5873342c9ee901cf98cd9a9b t/release-pod-linkcheck.t
+SHA1 3f5f3f6b7bd64ec96d6f30ad0e148f784785c804 t/release-pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJSTh5KAAoJEOd5N1CvIgQkfy4H/jO8cWUVf3WOTqtSDPl7hVGH
+NTVJr5MMwSWg0e2E6If8H2Yz8v5il/xjoee0dr9gdf2xYsIpyB7bm7MsxYP0uDye
+vAvaOMeE8VLH9Y3xPVomFfPlSullmfgZuLvl70WS4N5SVxSBiGkrqCmB3lDbyQNZ
+lJmnlg0/sjKklEWIeJh10Ehqn4OZnJJDX3TXvsdm803tqgaZ0EU4ePrq8Hdld/XK
+ab7RKVBRT/U8LqRuySerbK9hftnuPML2/bfI1xkFq6wB0LBTCSQjjlY77btb+8cc
+rvj71qMwux2sT7+q1oAl2Dy2UwzCut2AAfSdB6wM9ZO/V6kZkkl4Ol6EBUZr+iE=
+=YaRM
+-----END PGP SIGNATURE-----
